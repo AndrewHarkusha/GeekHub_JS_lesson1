@@ -1,7 +1,12 @@
-		function test()
+		function start(x)
 		{
+			
+			if (x > 0) {
+				console.log("Good digit");
+			} else{
+				console.error("Error. Digit less then 1");
+			}
 			alert(x);
-			var x = 1;
 		}
 		
 		test = function()
