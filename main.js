@@ -19,3 +19,11 @@
 			}
 		}
 		
+		function degree2(x)
+		{
+			var result = 1;
+			for(var i = 0; i < x; i = i + 1){
+				result = result * 2;
+			}
+			console.log('2^'+x+' = '+result);
+		}
