@@ -35,3 +35,44 @@
 				sign=sign+'#';
 			}
 		}
+		
+		function fizzBuzz(x){
+			for(var i = 1; i<=x; i++){
+				if ((i%3==0)&&(i%5==0)){
+					console.log('FizzBuzz');
+				}else if (i%3==0){
+					console.log('Fizz');
+				}else if (i%5==0){
+					console.log('Buzz');
+				}else{
+					console.log(i);
+				}
+				
+				
+			}
+		}
+		
+		function chessBoard(x){
+			blackOrWhite = 0;
+			str = "";
+			for(var i=1; i<=x; i++){
+				for(var j=1; j<=x; j++){
+					if (blackOrWhite == 0){
+					    str = str + "#";
+						blackOrWhite = 1;
+					} else{
+						str = str + " ";
+						blackOrWhite = 0;
+					}	
+					
+				}
+				console.log(str);
+				str = "";
+				if (blackOrWhite == 0){
+					blackOrWhite = 1;
+				}else{
+					blackOrWhite = 0;
+				}
+			}
+			
+		}
