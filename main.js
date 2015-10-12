@@ -10,3 +10,12 @@
 			alert(x);
 		}
 		
+		function even(x)
+		{
+			var i = 0;
+			while (i<=x){
+				console.log(i+',');
+				i = i + 2;
+			}
+		}
+		
