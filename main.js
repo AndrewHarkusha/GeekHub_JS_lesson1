@@ -27,3 +27,11 @@
 			}
 			console.log('2^'+x+' = '+result);
 		}
+		
+		function triangeleFromSharp(x){
+			var sign = '#';
+			for(var i=1;i<=x;i++){
+				console.log(sign);
+				sign=sign+'#';
+			}
+		}
