@@ -10,6 +10,7 @@
 			alert(x);
 		}
 		
+		// only even number
 		function even(x)
 		{
 			var i = 0;
